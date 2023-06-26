@@ -1,0 +1,39 @@
+div::after{
+    content: "Frontend"
+}
+
+div::before{
+    content: "This is cool"
+}
+
+div{
+    transition: background-color 3000ms;
+}
+
+div:hover{
+    transition: background-color 3000ms;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div{
+    height: 40px;
+}
+
+button{
+    animation: float 3000ms infinite alternate-reverse;
+    transition: all 500ms;
+}
+
+button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+@keyframes float{
+    0% {
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+}

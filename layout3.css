@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    border: 3px solid lightgray;
+    padding: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.part1{
+    width: 45%;
+    
+    
+}
+
+.part2{
+    width: 45%;
+    
+}
+
+
+
+.small-box{
+    
+    height: 100px;
+    
+}
+
+.box{
+    
+    border: 2px solid lightgray;
+    margin-bottom: 10px;
+}

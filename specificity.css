@@ -1,0 +1,13 @@
+.red{
+    color: red;
+    width: 100%
+}
+
+.blue{
+    color: blue;
+    width: 100%;
+}
+
+section{
+    height: 100vh;
+}

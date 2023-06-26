@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    border: 3px solid black;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.row{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.part1{
+    width: 45%;
+}
+
+.part2{
+    width: 45%;
+}
+
+.part3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small{
+    height: 50px;
+}
+
+.smallest{
+    width: 30%;
+}
+
+.box{
+    
+    border: 2px solid lightgray;
+    margin-bottom: 10px;
+}
